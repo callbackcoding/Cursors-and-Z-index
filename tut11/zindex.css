@@ -1,0 +1,35 @@
+
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.one{
+    background-color:red ; 
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+.two{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    background-color:yellow ;
+    z-index: 5;
+}
+.three{
+    background-color: green;
+    position: absolute;
+    left: 70px;
+    top: 70px;
+    z-index: 99;
+}
+.four{
+    background-color: orange;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 44;
+}
